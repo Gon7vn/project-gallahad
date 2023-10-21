@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Parallax</title>
+</head>
+<body>
+    <div class="navbar-fixed">
+        <nav>
+            <div class="container">
+                <a href="" class="brand-logo">CONSTRUCTION</a>
+                <ul class="table-of-contents right">
+                    <li><a href="#introduction" class="white-text">Building</a></li>
+                    <li><a href="#structure" class="white-text">Architectural</a></li>
+                    <li><a href="#initialization" class="white-text">Functional</a></li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+    
+    <div class="parallax-container">
+        <div class="parallax">
+            <img src="cons1.jpeg" alt="">
+        </div>
+    </div>
+
+    <section class="section scrollspy" id="introduction">
+        <div class="container">
+            <h2>Building Structures</h2>
+            <p>Building structures refer to the engineered frameworks and systems that provide support, stability, and functionality to constructed buildings. These structures are designed to withstand various loads, such as gravity, wind, seismic forces, and other environmental factors, ensuring the safety and durability of the building. Building structures can encompass a wide range of elements, including the foundation, beams, columns, walls, roofs, and more. The design and construction of these structures involve careful planning and engineering to meet specific requirements, such as architectural design, occupancy, and the local building code. Building structures are fundamental in the construction industry and play a crucial role in shaping the built environment.  </p>
+            <br><br>
+            <h3 class="grey-text text-darken-3"></h3>
+        </div>
+    </section>
+
+    <div class="parallax-container">
+        <div class="parallax">
+            <img src="cons2.jpeg" alt="">
+        </div>
+    </div>
+
+    <section class="section scrollspy" id="structure">
+        <div class="container">
+            <h2>Architectural Structure</h2>
+            <p>Architectural structure refers to the physical framework, components, and elements that constitute a building or other architectural creation. It encompasses both the visible and hidden elements that give a building its form, support, and functionality. Architectural structures include walls, floors, roofs, columns, beams, foundations, stairs, and various building systems like HVAC, plumbing, and electrical. These elements are designed and arranged to meet aesthetic, functional, and safety requirements, contributing to the overall design and integrity of a building. Architectural structure is a fundamental aspect of architectural design and engineering, with its design and construction playing a pivotal role in realizing the vision of the architect and ensuring the safety and usability of the building.</p>
+            <br><br>
+            <h3 class="grey-text text-darken-3"></h3>
+        </div>
+    </section>
+
+    <div class="parallax-container">
+        <div class="parallax">
+            <img src="cons3.webp" alt="">
+        </div>
+    </div>
+
+    <section class="section scrollspy" id="initialization">
+        <div class="container">
+            <h2>Functional design</h2>
+            <p>Functional design, in the context of product design and engineering, refers to the process of creating a product or system with a primary focus on its intended purpose and functionality. It involves the systematic development of a design that meets the specific needs, requirements, and objectives of the product while optimizing its performance and usability.</p>
+            <br><br>
+            <h3 class="grey-text text-darken-3"></h3>
+        </div>
+    </section>
+
+    <!-- jQuery CDN -->
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    
+    <script>
+        $(document).ready(function()  {
+            // Parallax initialization
+            $('.parallax').parallax();
+            // Scrollspy initialization
+            $('.scrollspy').scrollSpy();
+        });
+    </script>
+</body>
+</html>
